@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://eclipsekitchenandbath.ca/sitemap.xml
+
+# Disallow admin or private areas (if any in the future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow crawling of CSS and JS for better rendering
+Allow: /styles.css
+Allow: /script.js

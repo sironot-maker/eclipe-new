@@ -1,0 +1,60 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "index.html"
+        fields:
+          - {label: "Hero Title Line 1", name: "hero_title_1", widget: "string"}
+          - {label: "Hero Title Line 2", name: "hero_title_2", widget: "string"}
+          - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string"}
+      
+      - label: "About Page"
+        name: "about"
+        file: "about.html"
+        fields:
+          - {label: "Page Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
+      
+      - label: "Services Page"
+        name: "services"
+        file: "services.html"
+        fields:
+          - {label: "Page Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
+      
+      - label: "Portfolio Page"
+        name: "portfolio"
+        file: "portfolio.html"
+        fields:
+          - {label: "Page Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
+      
+      - label: "Contact Page"
+        name: "contact"
+        file: "contact.html"
+        fields:
+          - {label: "Page Title", name: "title", widget: "string"}
+          - {label: "Phone", name: "phone", widget: "string"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Address", name: "address", widget: "text"}
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - label: "Business Info"
+        name: "business"
+        file: "site-config.json"
+        fields:
+          - {label: "Business Name", name: "name", widget: "string"}
+          - {label: "Phone", name: "phone", widget: "string"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Address", name: "address", widget: "text"}

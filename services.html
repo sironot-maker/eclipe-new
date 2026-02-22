@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eclipse Kitchen & Bath services: Full kitchen renovations, custom bathroom design, bespoke cabinetry, and professional installation in Ottawa.">
+    <title>Our Services - Eclipse Kitchen & Bath | Ottawa Kitchen & Bath Renovations</title>
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://eclipsekitchenandbath.ca/services.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://eclipsekitchenandbath.ca/services.html">
+    <meta property="og:title" content="Our Services - Eclipse Kitchen & Bath">
+    <meta property="og:description" content="Eclipse Kitchen & Bath services: Full kitchen renovations, custom bathroom design, bespoke cabinetry, and professional installation in Ottawa.">
+    <meta property="og:image" content="https://eclipsekitchenandbath.ca/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Our Services - Eclipse Kitchen & Bath">
+    <meta property="twitter:description" content="Full kitchen renovations, custom bathroom design, and professional installation in Ottawa.">
+    <meta property="twitter:image" content="https://eclipsekitchenandbath.ca/og-image.jpg">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .service-detail { padding: 60px 0; border-bottom: 1px solid var(--color-light-gray); }
+        .service-detail:last-child { border-bottom: none; }
+        .service-detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+        .service-detail:nth-child(even) .service-detail-grid { direction: rtl; }
+        .service-detail:nth-child(even) .service-detail-content { direction: ltr; }
+        .service-detail-content h3 { font-family: var(--font-heading); font-size: 36px; font-weight: 500; margin-bottom: 20px; }
+        .service-detail-content p { line-height: 1.8; color: var(--color-gray); margin-bottom: 20px; }
+        .service-features { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 30px; }
+        .service-features li { display: flex; align-items: center; gap: 10px; font-size: 14px; }
+        .service-features li::before { content: "✓"; color: var(--color-gold); font-weight: bold; }
+        @media (max-width: 1024px) {
+            .service-detail-grid { grid-template-columns: 1fr; gap: 40px; }
+            .service-detail:nth-child(even) .service-detail-grid { direction: ltr; }
+            .service-features { grid-template-columns: 1fr; }
+        }
+    </style>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ECLIPSE</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link active">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="tel:6132920311" class="phone-link">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M14.5 11.28V13.28C14.5 13.5505 14.3946 13.8096 14.2071 14.0021C14.0196 14.1946 13.7652 14.3049 13.5 14.31C13.21 14.3153 12.92 14.2653 12.65 14.16C10.0357 13.1955 7.72261 11.5544 5.93 9.39C3.77382 7.59743 2.13254 5.28434 1.17 2.67C1.06454 2.40005 1.01463 2.11005 1.02 1.82C1.02514 1.55478 1.13537 1.30043 1.32785 1.11285C1.52033 0.925268 1.77968 0.820143 2.05 0.82H4.05C4.31289 0.817442 4.56787 0.912127 4.76497 1.08653C4.96206 1.26094 5.08753 1.50465 5.12 1.77C5.18 2.3 5.29 2.82 5.45 3.33C5.52402 3.55625 5.52708 3.80094 5.45863 4.02908C5.39019 4.25722 5.25382 4.45798 5.07 4.61L4.26 5.42C6.01667 7.58667 8.23333 9.80333 10.4 11.56L11.21 10.75C11.3621 10.5662 11.5628 10.4298 11.791 10.3614C12.0191 10.2929 12.2638 10.296 12.49 10.37C13 10.53 13.52 10.64 14.05 10.7C14.3184 10.7329 14.5648 10.8607 14.7399 11.0611C14.915 11.2616 15.0074 11.5202 15 11.786V11.28Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    (613) 292-0311
+                </a>
+                <a href="contact.html" class="btn-primary">Get a Quote</a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="container">
+            <p class="page-hero-label">WHAT WE DO</p>
+            <h1 class="page-hero-title">Our Services</h1>
+            <p class="page-hero-subtitle">Comprehensive renovation services tailored to your vision and lifestyle, backed by 7+ years of Ottawa expertise.</p>
+        </div>
+    </section>
+
+    <section class="trust-badges">
+        <div class="container">
+            <div class="badges-grid">
+                <div class="badge"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2"/><path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2"/><path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2"/></svg><span>Licensed & Insured</span></div>
+                <div class="badge"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="currentColor" stroke-width="2"/><path d="M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11Z" stroke="currentColor" stroke-width="2"/></svg><span>Family Owned</span></div>
+                <div class="badge"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/><path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2"/></svg><span>7+ Years Experience</span></div>
+                <div class="badge"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M22 11.08V12C21.9988 14.1564 21.3005 16.2547 20.0093 17.9818C18.7182 19.709 16.9033 20.9725 14.8354 21.5839C12.7674 22.1953 10.5573 22.1219 8.53447 21.3746C6.51168 20.6273 4.78465 19.2461 3.61096 17.4371C2.43727 15.628 1.87979 13.4881 2.02168 11.3363C2.16356 9.18455 2.99721 7.13631 4.39828 5.49706C5.79935 3.85781 7.69279 2.71537 9.79619 2.24013C11.8996 1.7649 14.1003 1.98232 16.07 2.85999" stroke="currentColor" stroke-width="2"/><path d="M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2"/></svg><span>Satisfaction Guaranteed</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section style="padding: 100px 0; background: var(--color-white);">
+        <div class="container" style="max-width: 1200px;">
+            <div class="service-detail">
+                <div class="service-detail-grid">
+                    <div class="service-detail-content">
+                        <h3>Full Kitchen Renovations</h3>
+                        <p>Complete kitchen transformations from concept to completion. We handle every aspect of your kitchen renovation including custom cabinetry design and manufacturing, premium countertop selection and installation, lighting design, appliance integration, flooring, backsplash, plumbing, and full project management. Our team works closely with you to create a space that perfectly balances form and function for your Ottawa home.</p>
+                        <ul class="service-features">
+                            <li>Spa-Like Ensuites</li>
+                            <li>Custom Vanities</li>
+                            <li>Premium Tile Work</li>
+                            <li>Modern Fixtures</li>
+                        </ul>
+                    </div>
+                    <div><img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?w=600&h=500&fit=crop" alt="Modern kitchen renovation" style="width: 100%; height: 500px; object-fit: cover;"></div>
+                </div>
+            </div>
+
+            <div class="service-detail">
+                <div class="service-detail-grid">
+                    <div class="service-detail-content">
+                        <h3>Custom Bathroom Design</h3>
+                        <p>Elevate your bathroom into a spa-like retreat with our comprehensive renovation services. From luxurious ensuites to functional family bathrooms, we create stunning spaces with custom vanities, premium tile work, modern fixtures, and thoughtful storage solutions. Our designers ensure every detail reflects your personal style while maximizing the functionality of your space.</p>
+                        <ul class="service-features">
+                            <li>Spa-Like Ensuites</li>
+                            <li>Custom Vanities</li>
+                            <li>Premium Tile Work</li>
+                            <li>Modern Fixtures</li>
+                        </ul>
+                    </div>
+                    <div><img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=500&fit=crop" alt="Luxury bathroom" style="width: 100%; height: 500px; object-fit: cover;"></div>
+                </div>
+            </div>
+
+            <div class="service-detail">
+                <div class="service-detail-grid">
+                    <div class="service-detail-content">
+                        <h3>Bespoke Cabinetry</h3>
+                        <p>Handcrafted cabinets manufactured right here in Ottawa for kitchens, bathrooms, and custom storage throughout your home. We use premium materials and finishes, offering endless customization options from traditional to contemporary styles. Each piece is built to your exact specifications, ensuring a perfect fit and lasting quality that mass-produced cabinets simply cannot match.</p>
+                        <ul class="service-features">
+                            <li>Local Manufacturing</li>
+                            <li>Premium Finishes</li>
+                            <li>Custom Sizing</li>
+                            <li>Endless Styles</li>
+                        </ul>
+                    </div>
+                    <div><img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=600&h=500&fit=crop" alt="Custom cabinetry" style="width: 100%; height: 500px; object-fit: cover;"></div>
+                </div>
+            </div>
+
+            <div class="service-detail">
+                <div class="service-detail-grid">
+                    <div class="service-detail-content">
+                        <h3>Professional Installation</h3>
+                        <p>Our certified installation team brings decades of combined experience to every project. We take pride in meticulous attention to detail, maintaining a clean worksite, and ensuring every element is installed to perfection. From cabinetry to countertops, fixtures to flooring, our installers treat your home with the care and respect it deserves.</p>
+                        <ul class="service-features">
+                            <li>Certified Installers</li>
+                            <li>Quality Guarantee</li>
+                            <li>Clean Worksite</li>
+                            <li>Meticulous Detail</li>
+                        </ul>
+                    </div>
+                    <div><img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?w=600&h=500&fit=crop" alt="Professional installation" style="width: 100%; height: 500px; object-fit: cover;"></div>
+                </div>
+            </div>
+
+            <div class="service-detail">
+                <div class="service-detail-grid">
+                    <div class="service-detail-content">
+                        <h3>Product Curation</h3>
+                        <p>Access our carefully curated selection of premium products including cabinets, vanities, fixtures, hardware, and accessories from trusted manufacturers. Our design consultants help you navigate countless options to find the perfect pieces that match your vision and budget. One-stop shopping means a streamlined renovation experience from start to finish.</p>
+                        <ul class="service-features">
+                            <li>Premium Brands</li>
+                            <li>Design Consultation</li>
+                            <li>One-Stop Shop</li>
+                            <li>Trusted Suppliers</li>
+                        </ul>
+                    </div>
+                    <div><img src="https://images.unsplash.com/photo-1556909212-d5b604d0c90d?w=600&h=500&fit=crop" alt="Product selection" style="width: 100%; height: 500px; object-fit: cover;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container-narrow">
+            <h2 class="cta-title">Ready to Start Your Project?</h2>
+            <p class="cta-subtitle">Contact us for a free consultation and let's bring your vision to life.</p>
+            <div class="cta-buttons">
+                <a href="tel:6132920311" class="btn-primary"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M14.5 11.28V13.28C14.5 13.5505 14.3946 13.8096 14.2071 14.0021C14.0196 14.1946 13.7652 14.3049 13.5 14.31C13.21 14.3153 12.92 14.2653 12.65 14.16C10.0357 13.1955 7.72261 11.5544 5.93 9.39C3.77382 7.59743 2.13254 5.28434 1.17 2.67C1.06454 2.40005 1.01463 2.11005 1.02 1.82C1.02514 1.55478 1.13537 1.30043 1.32785 1.11285C1.52033 0.925268 1.77968 0.820143 2.05 0.82H4.05C4.31289 0.817442 4.56787 0.912127 4.76497 1.08653C4.96206 1.26094 5.08753 1.50465 5.12 1.77C5.18 2.3 5.29 2.82 5.45 3.33C5.52402 3.55625 5.52708 3.80094 5.45863 4.02908C5.39019 4.25722 5.25382 4.45798 5.07 4.61L4.26 5.42C6.01667 7.58667 8.23333 9.80333 10.4 11.56L11.21 10.75C11.3621 10.5662 11.5628 10.4298 11.791 10.3614C12.0191 10.2929 12.2638 10.296 12.49 10.37C13 10.53 13.52 10.64 14.05 10.7C14.3184 10.7329 14.5648 10.8607 14.7399 11.0611C14.915 11.2616 15.0074 11.5202 15 11.786V11.28Z" stroke="currentColor" stroke-width="1.5"/></svg>(613) 292-0311</a>
+                <a href="contact.html" class="btn-outline">GET A QUOTE</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand"><h3 class="footer-logo">ECLIPSE</h3><p class="footer-tagline">Ottawa's premier kitchen & bath renovation experts. Where craftsmanship meets timeless design.</p></div>
+                <div class="footer-section"><h4 class="footer-heading">Contact</h4><ul class="footer-links"><li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M14.5 11.28V13.28C14.5 13.5505 14.3946 13.8096 14.2071 14.0021C14.0196 14.1946 13.7652 14.3049 13.5 14.31C13.21 14.3153 12.92 14.2653 12.65 14.16C10.0357 13.1955 7.72261 11.5544 5.93 9.39C3.77382 7.59743 2.13254 5.28434 1.17 2.67C1.06454 2.40005 1.01463 2.11005 1.02 1.82C1.02514 1.55478 1.13537 1.30043 1.32785 1.11285C1.52033 0.925268 1.77968 0.820143 2.05 0.82H4.05C4.31289 0.817442 4.56787 0.912127 4.76497 1.08653C4.96206 1.26094 5.08753 1.50465 5.12 1.77C5.18 2.3 5.29 2.82 5.45 3.33C5.52402 3.55625 5.52708 3.80094 5.45863 4.02908C5.39019 4.25722 5.25382 4.45798 5.07 4.61L4.26 5.42C6.01667 7.58667 8.23333 9.80333 10.4 11.56L11.21 10.75C11.3621 10.5662 11.5628 10.4298 11.791 10.3614C12.0191 10.2929 12.2638 10.296 12.49 10.37C13 10.53 13.52 10.64 14.05 10.7C14.3184 10.7329 14.5648 10.8607 14.7399 11.0611C14.915 11.2616 15.0074 11.5202 15 11.786V11.28Z" stroke="currentColor" stroke-width="1.5"/></svg><a href="tel:6132920311">(613) 292-0311</a></li><li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2.66667 2.66667H13.3333C14.0667 2.66667 14.6667 3.26667 14.6667 4V12C14.6667 12.7333 14.0667 13.3333 13.3333 13.3333H2.66667C1.93333 13.3333 1.33333 12.7333 1.33333 12V4C1.33333 3.26667 1.93333 2.66667 2.66667 2.66667Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14.6667 4L8 8.66667L1.33333 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><a href="mailto:chad@eclipsekitchenandbath.ca">chad@eclipsekitchenandbath.ca</a></li><li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M14 6.66667C14 11.3333 8 15.3333 8 15.3333C8 15.3333 2 11.3333 2 6.66667C2 5.07536 2.63214 3.54927 3.75736 2.42405C4.88258 1.29883 6.40869 0.666672 8 0.666672C9.59131 0.666672 11.1174 1.29883 12.2426 2.42405C13.3679 3.54927 14 5.07536 14 6.66667Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8.66667C9.10457 8.66667 10 7.77124 10 6.66667C10 5.5621 9.10457 4.66667 8 4.66667C6.89543 4.66667 6 5.5621 6 6.66667C6 7.77124 6.89543 8.66667 8 8.66667Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Ottawa, Ontario</li></ul></div>
+                <div class="footer-section"><h4 class="footer-heading">Quick Links</h4><ul class="footer-links"><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="testimonials.html">Testimonials</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+            </div>
+            <div class="footer-bottom"><p>&copy; 2026 Eclipse Kitchen & Bath Co. All rights reserved.</p><div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div></div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
